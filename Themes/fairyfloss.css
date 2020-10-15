@@ -1,6 +1,6 @@
 meta {
   -theme-interface-style: dark;
-  -theme-vibrancy: none;
+  -theme-vibrancy: vibrant;
   -theme-accent-color: auto;
 }
 
@@ -21,13 +21,13 @@ meta.titlebar.inactive {
 }
 
 meta.button {
-  background: #c9e7d5;
+  background: linear-gradient(hsb(210, 10%, 34%), hsb(210, 10%, 26%));
   border: linear-gradient(hsb(210, 10%, 18%), hsb(210, 10%, 14%));
-  color: #3a364b;
+  color: white;
 }
 meta.button.highlighted {
-  background: #c2ffdf;
-  color: #3a364b;
+  background: linear-gradient(hsb(210, 10%, 44%), hsb(210, 10%, 36%));
+  color: white;
 }
 meta.button.selected {
   color: white;
