@@ -21,12 +21,12 @@ meta.titlebar.inactive {
 }
 
 meta.button {
-  background: linear-gradient(hsb(210, 10%, 34%), hsb(210, 10%, 26%));
-  border: linear-gradient(hsb(210, 10%, 18%), hsb(210, 10%, 14%));
+  background: linear-gradient(hsb(251, 28%, 29%), hsb(251, 28%, 21%));
+  border: linear-gradient(hsb(251, 28%, 13%), hsb(251, 28%, 9%));
   color: white;
 }
 meta.button.highlighted {
-  background: linear-gradient(hsb(210, 10%, 44%), hsb(210, 10%, 36%));
+  background: linear-gradient(hsb(251, 28%, 39), hsb(251, 28%, 31%));
   color: white;
 }
 meta.button.selected {
@@ -36,14 +36,19 @@ meta.button.highlighted.selected {
   color: white;
 }
 meta.button.disabled {
-  background: linear-gradient(hsb(210, 10%, 34%), hsb(210, 10%, 26%));
-  border: linear-gradient(hsb(210, 10%, 18%), hsb(210, 10%, 14%));
+  background: linear-gradient(hsb(251, 28%, 29%), hsb(251, 28%, 21%));
+  border: linear-gradient(hsb(251, 28%, 13%), hsb(251, 28%, 9%));
   color: hsb(0, 0%, 40%);
 }
 
 meta.textfield {
-  background-color: hsb(210, 10%, 14%);
-  border-color: hsb(210, 10%, 10%);
+  background-color: hsb(251, 28%, 21%);
+  border-color: hsb(251, 28%, 9%);
+}
+
+meta.textfield.active {
+  background-color: hsb(251, 28%, 21%);
+  border-color: hsb(144, 13%, 91%);
 }
 
 meta.accent {
@@ -56,25 +61,6 @@ meta.accent {
 meta.document {
   background-color: #5a5475;
   border-color: #645e82;
-}
-
-meta.document.button {
-  background: linear-gradient(hsb(210, 10%, 26%), hsb(210, 10%, 22%));
-  border: linear-gradient(hsb(210, 10%, 12%), hsb(210, 10%, 8%));
-}
-meta.document.button.disabled {
-  background: linear-gradient(
-    hsba(220, 10%, 26%, 0.3),
-    hsba(220, 10%, 22%, 0.3)
-  );
-}
-meta.document.button.highlighted {
-  background: linear-gradient(hsb(210, 10%, 36%), hsb(210, 10%, 32%));
-}
-
-meta.document.textfield {
-  background-color: hsb(210, 10%, 10%);
-  border-color: hsb(210, 10%, 6%);
 }
 
 /* Text */
