@@ -63,6 +63,18 @@ meta.document {
   border-color: #645e82;
 }
 
+meta.document.button {
+}
+
+meta.document.button.disabled {
+}
+
+meta.document.button.highlighted {
+}
+
+meta.document.textfield {
+}
+
 /* Text */
 meta.text {
   color: #f8f8f2;
@@ -112,7 +124,6 @@ declaration {
 bracket {
 }
 operator {
-  color: hsb(210, 20%, 52%);
 }
 invalid {
   background-color: hsb(355, 82%, 96%);
