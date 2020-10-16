@@ -167,7 +167,7 @@ identifier.method {
   color: #fff352;
 }
 identifier.key {
-  color: hsb(210, 60%, 100%);
+  color: #c2ffdf;
 }
 identifier.argument {
   color: #ff857f;
@@ -179,7 +179,7 @@ string {
   color: #ffea00;
 }
 string.key {
-  color: hsb(5, 65%, 100%);
+  color: #c2ffdf;
 }
 string-template {
   color: hsb(27, 60%, 100%);
