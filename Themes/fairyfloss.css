@@ -155,7 +155,6 @@ identifier.type {
   color: hsb(258, 40%, 87%);
 }
 identifier.constant {
-  color: #c5a3ff;
 }
 identifier.global,
 identifier.variable {
