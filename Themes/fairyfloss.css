@@ -65,17 +65,18 @@ meta.document {
 
 /* Text */
 meta.text {
-  color: hsb(210, 10%, 95%);
+  color: #f8f8f2;
 }
 meta.text.invisible {
   color: hsb(210, 20%, 20%);
 }
 meta.text.selected {
+  background-color: #8077a8;
 }
 
 /* Cursor */
 meta.cursor {
-  background-color: #716799;
+  background-color: hsb(252, 33%, 60%);
 }
 
 /* Indentation Guides */
@@ -85,11 +86,11 @@ meta.indentguide {
 
 /* Gutter */
 meta.gutter {
-  color: #7d7796;
+  color: hsb(252, 21%, 59%);
 }
 meta.gutter.selected {
-  background-color: hsb(210, 10%, 10%);
-  color: hsb(210, 10%, 80%);
+  background-color: hsb(252, 33%, 60%);
+  color: hsb(252, 33%, 90%);
 }
 
 /*
@@ -109,7 +110,6 @@ declaration {
   color: hsb(210, 20%, 50%);
 }
 bracket {
-  color: hsb(210, 20%, 52%);
 }
 operator {
   color: hsb(210, 20%, 52%);
