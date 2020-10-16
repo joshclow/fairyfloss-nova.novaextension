@@ -75,7 +75,7 @@ meta.text.selected {
 
 /* Cursor */
 meta.cursor {
-  background-color: hsb(210, 10%, 16%);
+  background-color: #716799;
 }
 
 /* Indentation Guides */
