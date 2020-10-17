@@ -1,7 +1,7 @@
 meta {
   -theme-interface-style: dark;
   -theme-vibrancy: none;
-  -theme-accent-color: auto;
+  -theme-accent-color: false;
 }
 
 /*
@@ -26,10 +26,11 @@ meta.button {
   color: white;
 }
 meta.button.highlighted {
-  background: linear-gradient(hsb(251, 28%, 39), hsb(251, 28%, 31%));
+  background: linear-gradient(hsb(251, 28%, 39%), hsb(251, 28%, 31%));
   color: white;
 }
 meta.button.selected {
+  background: linear-gradient(hsb(252, 33%, 60%), hsb(252, 33%, 52%));
   color: white;
 }
 meta.button.highlighted.selected {
@@ -79,6 +80,7 @@ meta.text {
   color: #f8f8f2;
 }
 meta.text.invisible {
+  color: #3a364b;
 }
 meta.text.selected {
   background-color: #8077a8;
@@ -91,7 +93,6 @@ meta.cursor {
 
 /* Indentation Guides */
 meta.indentguide {
-  border-color: hsba(220, 10%, 50%, 0.2);
 }
 
 /* Gutter */
