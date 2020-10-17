@@ -181,44 +181,49 @@ string.key {
   color: #c2ffdf;
 }
 string-template {
-  color: hsb(27, 60%, 100%);
+  color: #ff857f;
 }
 string-template.value {
-  color: hsb(27, 72%, 100%);
+  color: #c2ffdf;
 }
 regex {
-  color: hsb(40, 72%, 100%);
+  color: #c2ffdf;
 }
 regex.escaped {
-  color: hsb(27, 72%, 99%);
+  color: #ff857f;
 }
 cdata {
-  color: hsb(210, 60%, 100%);
+  color: #ff857f;
 }
 
 /* Markup */
 markup.heading {
-  color: hsb(30, 50%, 80%);
+  color: #ddbb88;
+  font-weight: bold;
+}
+markup.link {
+  color: #ffb8d1;
 }
 markup.line {
   color: hsb(60, 50%, 75%);
 }
 markup.bold {
-  color: hsb(196, 60%, 76%);
+  color: #c2ffdf;
   font-weight: bold;
 }
 markup.italic {
-  color: hsb(94, 40%, 80%);
+  color: #c2ffdf;
   font-style: italic;
 }
 markup.strikethrough {
   color: hsb(0, 60%, 100%);
 }
 markup.list.item {
-  color: hsb(30, 50%, 80%);
+  color: #c5a3ff;
 }
 markup.code {
-  background-color: rgba(128, 128, 128, 0.2);
+  font-weight: bold;
+  background-color: hsb(252, 33%, 45%);
 }
 
 /* Types */
