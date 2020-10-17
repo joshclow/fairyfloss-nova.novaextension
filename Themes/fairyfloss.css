@@ -1,6 +1,6 @@
 meta {
   -theme-interface-style: dark;
-  -theme-vibrancy: vibrant;
+  -theme-vibrancy: none;
   -theme-accent-color: auto;
 }
 
@@ -52,7 +52,6 @@ meta.textfield.active {
 }
 
 meta.accent {
-  color: hsb(204, 78%, 97%);
 }
 
 /*
@@ -80,7 +79,6 @@ meta.text {
   color: #f8f8f2;
 }
 meta.text.invisible {
-  color: hsb(210, 20%, 20%);
 }
 meta.text.selected {
   background-color: #8077a8;
@@ -116,21 +114,19 @@ comment {
   color: #e6c000;
 }
 processing {
-  color: hsb(210, 20%, 50%);
 }
 declaration {
-  color: hsb(210, 20%, 50%);
 }
 bracket {
 }
 operator {
 }
 invalid {
-  background-color: hsb(355, 82%, 96%);
-  color: #ffb0b0;
+  color: #f44747;
 }
 link {
-  color: hsb(210, 60%, 100%);
+  color: #fff352;
+  text-decoration: underline;
 }
 
 /* Values */
@@ -153,6 +149,9 @@ value.symbol {
 /* Identifiers */
 identifier.type {
   color: #c2ffdf;
+}
+identifier.type.class {
+  color: #fff352;
 }
 identifier.constant {
 }
@@ -205,7 +204,7 @@ markup.link {
   color: #ffb8d1;
 }
 markup.line {
-  color: hsb(60, 50%, 75%);
+  color: #ddbb88;
 }
 markup.bold {
   color: #c2ffdf;
@@ -216,7 +215,8 @@ markup.italic {
   font-style: italic;
 }
 markup.strikethrough {
-  color: hsb(0, 60%, 100%);
+  color: #c2ffdf;
+  text-decoration: line-through;
 }
 markup.list.item {
   color: #c5a3ff;
@@ -233,32 +233,27 @@ definition.package package.name,
 definition.enum enum.name,
 definition.union union.name,
 definition.struct struct.name {
-  font-weight: bold;
-  color: hsb(258, 40%, 87%);
 }
 
 /* Members */
 definition.property property.name,
 definition.function function.name,
 definition.method method.name {
-  color: hsb(210, 10%, 100%);
 }
 
 /* Tags */
 tag {
-  color: hsb(166, 40%, 78%);
+  color: #ffb8d1;
 }
 tag.framework {
-  color: hsb(258, 40%, 87%);
 }
 tag.attribute.name {
-  color: hsb(95, 54%, 82%);
+  color: #fff352;
 }
 tag.attribute.value {
-  color: hsb(5, 62%, 100%);
+  color: #fff352;
 }
 tag.attribute.value.link {
-  color: hsb(210, 60%, 100%);
 }
 
 /* Styles */
