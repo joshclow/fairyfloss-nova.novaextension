@@ -147,12 +147,12 @@ value.entity {
   color: hsb(210, 60%, 100%);
 }
 value.symbol {
-  color: hsb(210, 60%, 100%);
+  color: #fff352;
 }
 
 /* Identifiers */
 identifier.type {
-  color: hsb(258, 40%, 87%);
+  color: #c2ffdf;
 }
 identifier.constant {
 }
@@ -166,7 +166,7 @@ identifier.method {
   color: #fff352;
 }
 identifier.key {
-  color: #c2ffdf;
+  color: #ffb8d1;
 }
 identifier.argument {
   color: #ff857f;
@@ -263,7 +263,7 @@ tag.attribute.value.link {
 
 /* Styles */
 style.at {
-  color: hsb(25, 75%, 100%);
+  color: #ffb8d1;
   font-weight: bold;
 }
 style.selector.element {
@@ -271,16 +271,16 @@ style.selector.element {
   font-weight: bold;
 }
 style.selector.identifier.id {
-  color: hsb(166, 40%, 78%);
+  color: #fff352;
 }
 style.selector.identifier.class {
   color: #fff352;
 }
 style.selector.pseudoclass {
-  color: hsb(258, 40%, 87%);
+  color: #fff352;
 }
 style.selector.pseudoelement {
-  color: hsb(166, 40%, 78%);
+  color: #fff352;
 }
 style.attribute.name {
   color: #c2ffdf;
