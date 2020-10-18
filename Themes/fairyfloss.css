@@ -22,7 +22,7 @@ meta.titlebar.inactive {
 
 meta.button {
   background: linear-gradient(hsb(251, 28%, 29%), hsb(251, 28%, 21%));
-  border: linear-gradient(hsb(251, 28%, 13%), hsb(251, 28%, 9%));
+  border: linear-gradient(hsb(251, 28%, 63%), hsb(251, 28%, 59%));
   color: white;
 }
 meta.button.highlighted {
