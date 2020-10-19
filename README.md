@@ -4,4 +4,6 @@ Inspired by sailorhg's [lovely syntax theme](http://sailorhg.github.io/fairyflos
 
 ![Fairyfloss theme screenshot](https://raw.githubusercontent.com/joshclow/fairyfloss-nova/main/Screenshot.png)
 
+Install from the in-app extensions browser, or if you're using this as reference for your own theme, read up on how to get started [here](https://docs.nova.app)
+
 [Nova](https://nova.app) is a coding editor by [Panic](https://panic.com), you should try it!
