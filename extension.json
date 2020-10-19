@@ -1,8 +1,12 @@
 {
-    "identifier": "org.fairyfloss",
-    "name": "fairyfloss",
-    "organization": "MyOrganization",
-    "description": "Lorem ipsum, dolor sit amet.",
-    "version": "1.0",
-    "categories": ["themes"]
+  "identifier": "joshclow.fairyfloss",
+  "name": "fairyfloss",
+  "organization": "Josh Clow",
+  "description": "Dark and cozy theme for Nova, inspired by fairyfloss by sailorhg",
+  "repository": "https://github.com/joshclow/fairyfloss-nova",
+  "bugs": {
+    "url": "https://github.com/joshclow/fairyfloss-nova/issues"
+  },
+  "version": "1.0",
+  "categories": ["themes"]
 }
