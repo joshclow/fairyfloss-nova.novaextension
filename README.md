@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/joshclow/fairyfloss-nova/main/extension.png" alt="theme icon" height="50" width="50"/> Fairyfloss for Nova
+# <img src="https://raw.githubusercontent.com/joshclow/fairyfloss-nova.novaextension/main/extension.png" alt="theme icon" height="50" width="50"/> Fairyfloss for Nova
 
 Inspired by sailorhg's [lovely syntax theme](http://sailorhg.github.io/fairyfloss/), with additional inspiration for the UI chrome pieces from mintchipleaf's [fairyfloss-complete](https://github.com/mintchipleaf/fairyfloss-vscode) for VSCode.
 
