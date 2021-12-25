@@ -111,6 +111,9 @@ meta.gutter.selected {
 keyword {
   color: #ffb8d1;
 }
+keyword.construct {
+  color: #c2ffdf;
+}
 comment {
   color: #e6c000;
 }
